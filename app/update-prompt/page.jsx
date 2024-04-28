@@ -68,7 +68,7 @@
 "use client";
 
 import { Suspense } from 'react';
-import { useRouter } from 'next/router';
+import { useRouter } from 'next/navigation'
 import Form from '@components/Form';
 
 const UpdatePrompt = () => {
